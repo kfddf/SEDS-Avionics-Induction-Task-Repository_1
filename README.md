@@ -47,6 +47,8 @@ WRECKED: If the ship spends 5 consecutive seconds in STORM or CHARYBDIS without 
 Challenges I Ran Into & Solved
 Avoiding delay(): My biggest hurdle was tracking the 5-second countdown timer. Using Python-style pauses or delay() in Arduino completely freezes the code, meaning button presses get missed and the LCD lags. I switched to using millis() to track timestamps in the background while keeping the main loop spinning smoothly.
 
+TinkerCAD Build link:- "https://www.tinkercad.com/things/a7uzyyRzWVZ-lalith-2026aaps0291h-seds-avionics-induction-task-2"
+
 I wrote this README file, however using few AI tools such as Gemini, and Claude to make my work more presentable and sound a little technical as well as professional at scale, for cutting down unnecessary and redundant use of vocabulary, and paraphrasing sentences and etc.
 
 Priority Handling: If both a storm and Charybdis happen at once, my logic locks into whichever hazard hit first so the 5-second wreck timer doesn't get messed up midway through.terpreter path until a clean, isolated conda environment (plotenv) was set up and used consistently.
